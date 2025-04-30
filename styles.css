@@ -1,17 +1,29 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #EDEDED;
+}
+
+.ultranav {
+    height: 12vh;
+    background-color: #ffffff;
+}
+
+.meganav {
+    height: 11vh;
+    background-color: #2F5697;
 }
 
 nav {
-    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 9vh;
-    padding: 0 1vw;
+    padding: 1vw;
     background-color: #3E6AAE;
     box-sizing: border-box;
+    position: relative;
+    top: 0.33vw;
 }
 
 .logo {
@@ -19,19 +31,26 @@ nav {
     height: 2.5vw;
     background-color: white;
     position: relative;
-    left: 2.6vw;
+    left: 3.8vw;
+    top: 0.29vw;
 }
 
 .box_1 {
-    width: 11vw;
+    width: 14vw;
     height: 1.4vh;
     background-color: white;
+    position: relative;
+    right: 0.33vw;
+    top: 0.29vw;
 }
 
 .search {
     width: 45vw;
     height: 3.5vh;
     background-color: white;
+    position: relative;
+    right: 4.4vw;
+    top: 0.29vw;
 }
 
 .box_2 {
@@ -40,6 +59,7 @@ nav {
     background-color: white;
     position: relative;
     left: 3.6vw;
+    top: 0.29vw;
 }
 
 .box_3 {
@@ -47,5 +67,37 @@ nav {
     height: 1.4vh;
     background-color: white;
     position: relative;
-    right: 1.6vw;
+    right: 2.5vw;
+    top: 0.29vw;
+}
+
+.profile_container {
+    background-color: #ffffff;
+    width: 75vw;
+    height: 33vh;
+    margin-left: 6.1vw;
+}
+
+.profile {
+    background-color: #EFCB15;
+    width: 75vw;
+    height: 30vh;
+}
+
+.picture_container {
+    background-color: #ffffff;
+    width: 14vw;
+    height: 24.8vh;
+    position: relative;
+    left: 3vw;
+    top: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture {
+    background-color: #E9A4B7;
+    width: 12.5vw;
+    height: 22.22vh;
 }
