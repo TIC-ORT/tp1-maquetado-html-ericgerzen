@@ -1,18 +1,51 @@
-header {
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-        width: 100%;
-        background-color: #3E6AAE;
+body {
+    margin: 0;
+    padding: 0;
+}
 
-        .logo {
-            width: 500px;
-            height: 50px;
-            color: white;
-        }
-    }
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+    padding: 0 1vw;
+    background-color: #3E6AAE;
+    box-sizing: border-box;
+}
 
+.logo {
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: white;
+    position: relative;
+    left: 2.6vw;
+}
 
+.box_1 {
+    width: 11vw;
+    height: 1.4vh;
+    background-color: white;
+}
+
+.search {
+    width: 45vw;
+    height: 3.5vh;
+    background-color: white;
+}
+
+.box_2 {
+    width: 5.2vw;
+    height: 1.4vh;
+    background-color: white;
+    position: relative;
+    left: 3.6vw;
+}
+
+.box_3 {
+    width: 2.6vw;
+    height: 1.4vh;
+    background-color: white;
+    position: relative;
+    right: 1.6vw;
 }
