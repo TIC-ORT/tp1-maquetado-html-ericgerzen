@@ -303,7 +303,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 3avsafw;
+    padding-left: 3vw;
+    padding-right: 3vw;
     box-sizing: border-box;
 }
 
@@ -356,6 +357,8 @@ nav {
 
 .medium_bar_1, .medium_bar_2, .medium_bar_3 {
     background-color: #CACACA;
-    width: 2.8vw;
-    height: 0.4vw;
+    width: 3.3vw;
+    height: 0.3vw;
+    position: relative;
+    right: 3.5vw;
 }
