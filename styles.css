@@ -5,12 +5,12 @@ body {
 }
 
 .ultranav {
-    height: 12vh;
+    height: 9.3vh;
     background-color: #ffffff;
 }
 
 .meganav {
-    height: 11vh;
+    height: 8.7vh;
     background-color: #2F5697;
 }
 
@@ -18,7 +18,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 9vh;
+    height: 7.5vh;
     padding: 1vw;
     background-color: #3E6AAE;
     box-sizing: border-box;
@@ -31,7 +31,7 @@ nav {
     height: 2.5vw;
     background-color: white;
     position: relative;
-    left: 3.8vw;
+    left: 5vw;
     top: 0.29vw;
 }
 
@@ -40,57 +40,59 @@ nav {
     height: 1.4vh;
     background-color: white;
     position: relative;
-    right: 0.33vw;
+    left: 0.45vw;
     top: 0.29vw;
 }
 
 .search {
-    width: 45vw;
+    width: 42vw;
     height: 3.5vh;
     background-color: white;
     position: relative;
-    right: 4.4vw;
+    right: 4vw;
     top: 0.29vw;
 }
 
 .box_2 {
-    width: 5.2vw;
+    width: 6vw;
     height: 1.4vh;
     background-color: white;
     position: relative;
-    left: 3.6vw;
+    left: 3vw;
     top: 0.29vw;
 }
 
 .box_3 {
-    width: 2.6vw;
+    width: 3vw;
     height: 1.4vh;
     background-color: white;
     position: relative;
-    right: 2.5vw;
+    right: 3vw;
     top: 0.29vw;
 }
 
 .profile_container {
     background-color: #ffffff;
-    width: 75vw;
-    height: 33vh;
-    margin-left: 6.1vw;
+    width: 69vw;
+    height: 15.8vw;
+    margin-left: 5.7vw;
+    margin-right: 5.7vw;
+    margin-bottom: 4.4vw;
 }
 
 .profile {
     background-color: #EFCB15;
-    width: 75vw;
-    height: 30vh;
+    width: 69vw;
+    height: 14.2vw;
 }
 
 .picture_container {
     background-color: #ffffff;
-    width: 14vw;
-    height: 24.8vh;
+    width: 12.5vw;
+    height: 12.5vw;
     position: relative;
-    left: 3vw;
-    top: 14vh;
+    left: 3.5vw;
+    top: 6vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,6 +100,262 @@ nav {
 
 .picture {
     background-color: #E9A4B7;
-    width: 12.5vw;
-    height: 22.22vh;
+    width: 11.2vw;
+    height: 11.2vw;
+}
+
+.name {
+    background-color: #ffffff;
+    width: 16vw;
+    height: 1.2vw;
+    position: relative;
+    left: 17.8vw;
+    bottom: 3.8vw;}
+
+.description {
+    background-color: #ffffff;
+    width: 12vw;
+    height: 1.2vw;
+    position: relative;
+    left: 17.8vw;
+    bottom: 1.9vw;
+}
+
+.down {
+    display: flex;
+}
+
+.floating_bar {
+    background-color: #ffffff;
+    width: 25vw;
+    height: 2.5vw;
+    position: relative;
+    margin-left: 5.7vw;
+}
+
+.pictures {
+    background-color: #ffffff;
+    width: 25vw;
+    height: 25vw;
+    position: relative;
+    margin-left: 5.7vw;
+    top: 1.6vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5vw;
+    padding: 1.5vw;
+    box-sizing: border-box;
+}
+
+.picture_1, .picture_2, .picture_3,
+.picture_4, .picture_5, .picture_6,
+.picture_7, .picture_8, .picture_9 {
+    width: 100%;
+    height: 100%;
+}
+
+/* Esta me la tiró la IA porque no se me habría ocurrido cómo
+   ponerle color a los cuadrados sin llamarlos individualmente.
+   Pero básicamente lo que hace es llamar al n° hijo de pictures
+   y asignarle, en este caso, un color diferente. */
+
+.pictures div:nth-child(1) {
+    background-color: #E8DDA5;
+}
+
+.pictures div:nth-child(2) {
+    background-color: #ABA7E4;
+}
+
+.pictures div:nth-child(3) {
+    background-color: #A7CCE7;
+}
+
+.pictures div:nth-child(4) {
+    background-color: #D8A7E9;
+}
+
+.pictures div:nth-child(5) {
+    background-color: #A9E8DA;
+}
+
+.pictures div:nth-child(6) {
+    background-color: #D8A7E9;
+}
+
+.pictures div:nth-child(7) {
+    background-color: #A9E8DA;
+}
+
+.pictures div:nth-child(8) {
+    background-color: #A7CCE7;
+}
+
+.pictures div:nth-child(9) {
+    background-color: #E8DDA5;
+}
+
+.comment_1 {
+    width: 40.2vw;
+    height: 12.5vw;
+    position: relative;
+    margin-left: 3.8vw;
+    margin-bottom: 2.5vw;
+}
+
+.top_1 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 2.5vw;
+    margin-bottom: 0.2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15vw;
+    padding-right: 3vw;
+    box-sizing: border-box;
+}
+
+.middle_1 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 7.1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.bottom_1 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 2.5vw;
+    margin-top: 0.2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25vw;
+    padding-right: 3vw;
+    box-sizing: border-box;
+}
+
+.bar_1, .bar_2, .bar_3 {
+    background-color: #D6DFE2;
+    width: 4vw;
+    height: 0.7vw;
+}
+
+.commenter_1 {
+    background-color: #E9A4B7;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+}
+
+.comment_1_text {
+    background-color: #D6DFE2;
+    width: 30vw;
+    height: 0.7vw;
+}
+
+.green, .gold, .blue {
+    width: 1vw;
+    height: 1vw;
+}
+
+.green {
+    background-color: #B9E4A5;
+}
+
+.gold {
+    background-color: #E9DEA3;
+}
+
+.blue {
+    background-color: #9CCBED;
+}
+
+.comment_2 {
+    width: 40.2vw;
+    height: 14.1vw;
+    position: relative;
+    margin-left: 3.8vw;
+    margin-bottom: 2.5vw;
+}
+
+.top_2 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 11.5vw;
+    margin-bottom: 0.2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 2vw;
+    box-sizing: border-box;
+}
+
+.bottom_2 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 2.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3avsafw;
+    box-sizing: border-box;
+}
+
+.commenter_2 {
+    background-color: #D5A9E0;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+}
+
+.commenter_2_name {
+    background: #A8CDE9;
+    width: 10vw;
+    height: 0.7vw;
+    position: relative;
+    bottom: 2vw;
+    left: 4vw;
+}
+
+.commenter_2_description {
+    background: #EBEBEB;
+    width: 7vw;
+    height: 0.3vw;
+    position: relative;
+    bottom: 1.5vw;
+    left: 4vw;
+}
+
+.comment_2_bar_1 {
+    background-color: #D6DFE2;
+    width: 100%;
+    height: 0.7vw;
+    position: relative;
+    margin-top: 1.2vw;
+    margin-bottom: 1vw;
+}
+
+.comment_2_bar_2 {
+    background-color: #D6DFE2;
+    width: 90%;
+    height: 0.7vw;
+    position: relative;
+}
+
+.small_bar_1, .small_bar_2, .small_bar_3 {
+    background-color: #C7C7C7;
+    width: 1.4vw;
+    height: 0.7vw;
+}
+
+.medium_bar_1, .medium_bar_2, .medium_bar_3 {
+    background-color: #CACACA;
+    width: 2.8vw;
+    height: 0.4vw;
 }
